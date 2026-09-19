@@ -1,0 +1,131 @@
+h1{
+    font-family:"playfair display",serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.car
+{
+    max-width: 95%;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+p{
+    font-family: "payfair display",serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.brand {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+.attitude
+{
+    max-width: 95%;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.car {
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+  }
+
+.car {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.color-popup {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.car:hover .color-popup {
+    display: block;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #555;
+}
+
+.white {
+    background: white;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.black {
+    background: black;
+}
+
+.unavailable {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.unavailable .black {
+    opacity: 0.3;
+}
+
+.not-available {
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
